@@ -1,0 +1,60 @@
+body {
+    background: rgb(252, 237, 237);
+}
+
+.periodo {
+    float: left;
+    width: 960px;
+	padding: 0px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.materia {
+    border-radius: 5px;
+    font-size: 9px;
+    background-color: #BAD8EA;
+    margin-left: 0px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    
+}
+
+/* .materia:hover {
+    box-shadow: 0px 0px;
+    transition: 50ms;
+    background-color: rgb(150, 173, 187);
+} */
+
+.legenda {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.materia p {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.pre-requisito {
+    background-color: #FCE69A;
+}
+
+/* .pre-requisito:hover {
+    background-color: rgba(165, 152, 103,1);
+
+} */
+
+.concluido {
+    background: url('../img/done.png') #6DC152;;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+
+.cursando {
+    background: url('../img/doing.svg') #C82837;
+    background-size: 15px;
+    background-repeat: no-repeat;
+}

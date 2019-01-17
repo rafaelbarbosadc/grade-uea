@@ -26,6 +26,8 @@ $(document).on('keydown', function(e) {
     }
 
 });
+
+
 // pdf
 
 (function($){
@@ -86,3 +88,14 @@ function createPDF() {
         'fileName' : 'Grade Engenharia de Computação'
     });
 }
+
+// Filtros
+
+$(document).on('click', 'input', function(e) {
+    filtro = $(this).attr('id');
+    if (!$(this).is(':checked')) {
+        $('.'+filtro).hide();
+    } else {
+        $('.'+filtro).show();
+    }
+})
